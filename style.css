@@ -1,0 +1,56 @@
+html{
+  margin: 0;
+  background-color: #1C2833;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin-top: 160px;
+  margin-left: 50px;
+  position: relative;
+}
+
+.title{
+  color: #FFC663;
+  margin: 0px;
+  font-size: 50px;
+}
+
+.subtitle{
+  color: white;
+  font-size: 25px;
+  margin: 0px;
+}
+
+#generate-pass-btn{
+  background-color: #FFC663;
+  color: #34495E ;
+  padding: 4px 10px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #FFC663;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.password-flex{
+  display: flex;
+  margin-top: 15px;
+}
+
+#password-1,
+#password-2{
+  color: white ;
+  background-color: #5D6D7E ;
+  margin-right: 20px;
+  font-size: 19px;
+  font-weight: ;
+  width: 200px;
+  border-radius: 3px;
+  text-align: center;
+  padding: 4px 8px;
+}
